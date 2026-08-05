@@ -10,7 +10,7 @@ const app = express();
 /* ------------------ CORS ------------------ */
 const allowedOrigins = [
   "http://localhost:3000",
-  "https://omaryamminepro.netlify.app",
+  "pc-parts-backend-production.up.railway.app",
 ];
 
 app.use(
